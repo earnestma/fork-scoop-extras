@@ -1,6 +1,6 @@
 {
     "version": "1.2.2",
-    "description": "A Beautiful Gemini Client",
+    "description": "Desktop GUI client for browsing Geminispace",
     "homepage": "https://gmi.skyjake.fi/lagrange",
     "license": "BSD-2-Clause",
     "architecture": {
@@ -10,13 +10,13 @@
         }
     },
     "bin": "lagrange.exe",
-    "persist": "userdata",
     "shortcuts": [
         [
             "lagrange.exe",
             "Lagrange"
         ]
     ],
+    "persist": "userdata",
     "checkver": {
         "github": "https://github.com/skyjake/lagrange"
     },
